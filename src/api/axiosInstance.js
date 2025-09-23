@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://be-employee-management-system-1.onrender.com',
+  baseURL: import.meta.env.VITE_API_URL || 'https://be-employee-management-system-1.onrender.com/api',
   timeout: 10000, // 10 seconds timeout
 });
 
